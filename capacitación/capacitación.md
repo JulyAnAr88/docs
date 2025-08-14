@@ -2,34 +2,81 @@
 marp: true
 theme: base
 class: 
-paginate: true
+style: |
+  /* Fondo por defecto para todas las diapositivas */
+  section {
+    background-image: url('./img/pie.png');
+    background-size: cover;
+  }
+  /* Fondo diferente solo para la primera diapositiva */
+  .1 {
+    background-image: url('./img/fondo.png');
+    background-size: cover;
+  }
 ---
 
-![bg](./img/fondo.png)
+<style scoped>
+section {
+    font-size: 35px;
+    padding: 250px 45px;
+    justify-content: center;
+    text-align: center;
+}
 
-<section style="justify-content: center;color: #46cd9f;">
+div{
+    display: flex;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+}
+</style>
+
+<section>
    <h1>Introducción a la visualización de datos con Apache Superset</h1>
-    <div style="justify-content: center; align-items: center; gap: 150px; flex-wrap: wrap; margin: 0 auto;">
-        <img src="./img/logo-infor.png" style="height: 50px;" /><br />
-    </div>
-    <div style="text-align: center;">
-        <img src="./img/superset-logo.png" style="width: 150px;" /><br />
+    <div style="justify-content: center; align-items: center; gap: 100px; flex-wrap: wrap; margin: 0 auto;">
+        <div>
+            <img src="./img/logo-infor.png"/><br/>
+        </div>
+        <div>
+            <img src="./img/superset-logo.png"/><br/>
+        </div>
     </div>
 </section>
 
 ---
 
-<section style="justify-content: center;color: #46cd9f;">
+
+<style scoped>
+section {
+  font-size: 40px;
+  padding: 20px 40px;
+}
+</style>
+<section style="justify-content: center;">
    <h1>Conceptos básicos</h1>
     <div style="justify-content: center; align-items: center; gap: 150px; flex-wrap: wrap; margin: 0 auto;">
     <ul>
         <li data-marpit-fragment="1">Datos</li>
         <li data-marpit-fragment="2">Software</li>
-        <li data-marpit-fragment="3">Software Libre</li>
         <ol>
-            <li>Ejecución irrestricta</li>
+            <li data-marpit-fragment="3">Software Libre</li>        
+            <ol style="font-size: 1.5rem">
+                <li data-marpit-fragment="4">Ejecución irrestricta</li>
+                <li data-marpit-fragment="5">Acceso irrestricto al código fuente</li>
+                <li data-marpit-fragment="6">Inspección exhaustiva de los mecanismos de funcionamiento</li>
+                <li data-marpit-fragment="7">Adaptación para uso y necesidades de usuarias/os</li>
+                <li data-marpit-fragment="8">Libertad de estudio de funcionamiento</li>
+                <li data-marpit-fragment="9">Confección y distribución pública de copias</li>
+                <li data-marpit-fragment="10">Modificación del programa y distribución libre</li>
+            </ol>
         </ol>
     </ul>
 </section>
+
+---
+
+
 
 ---

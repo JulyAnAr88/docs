@@ -1,9 +1,11 @@
 ---
 marp: true
-theme: gaia
-class: invert
+theme: base
+class: 
 paginate: true
 ---
+
+![bg](./img/fondo.png)
 
 <section style="justify-content: center;color: #46cd9f;">
    <h1>Introducción a la visualización de datos con Apache Superset</h1>

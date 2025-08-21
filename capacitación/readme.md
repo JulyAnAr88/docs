@@ -88,7 +88,7 @@ Independientemente del modelado de la información, se mostrará a continuación
 
 Como recomendaciones generales, se sugiere nombrar las tablas en singular con denominaciones representativas y claras.
 
-Se intentará ejemplificar utilizando datos brindados por el sector.
+Se ejemplificará utilizando datos brindados por el sector Promoción de la Salud.
 
 A fines prácticos, asumiremos cada archivo como una tabla. Como se indicó anteriormente, lo ideal es contar con la información modelada, pero se tiene en cuenta también que este es el último paso antes de la creación de tableros, por lo que puede considerarse esta presentación de datos como primitiva para un posterior refinamiento y modelado.
 

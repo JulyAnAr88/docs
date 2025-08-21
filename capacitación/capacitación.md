@@ -8,11 +8,6 @@ style: |
     background-image: url('./img/pie.png');
     background-size: cover;
   }
-  /* Fondo diferente solo para la primera diapositiva */
-  .1 {
-    background-image: url('./img/fondo.png');
-    background-size: cover;
-  }
 ---
 
 <style scoped>
@@ -21,6 +16,8 @@ section {
     padding: 250px 45px;
     justify-content: center;
     text-align: center;
+    background-image: url('./img/fondo.png');
+    background-size: cover;
 }
 
 div{

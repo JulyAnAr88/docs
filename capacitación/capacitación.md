@@ -58,15 +58,15 @@ section {
         <li data-marpit-fragment="1">Datos</li>
         <li data-marpit-fragment="2">Software</li>
         <ol>
-            <li data-marpit-fragment="3">Software Libre</li>        
+            <li data-marpit-fragment="10">Software Libre</li>   
             <ol style="font-size: 1.5rem">
-                <li data-marpit-fragment="4">Ejecución irrestricta</li>
-                <li data-marpit-fragment="5">Acceso irrestricto al código fuente</li>
-                <li data-marpit-fragment="6">Inspección exhaustiva de los mecanismos de funcionamiento</li>
-                <li data-marpit-fragment="7">Adaptación para uso y necesidades de usuarias/os</li>
-                <li data-marpit-fragment="8">Libertad de estudio de funcionamiento</li>
-                <li data-marpit-fragment="9">Confección y distribución pública de copias</li>
-                <li data-marpit-fragment="10">Modificación del programa y distribución libre</li>
+                <li data-marpit-fragment="3">Ejecución irrestricta</li>
+                <li data-marpit-fragment="4">Acceso irrestricto al código fuente</li>
+                <li data-marpit-fragment="5">Inspección exhaustiva de los mecanismos de funcionamiento</li>
+                <li data-marpit-fragment="6">Adaptación para uso y necesidades de usuarias/os</li>
+                <li data-marpit-fragment="7">Libertad de estudio de funcionamiento</li>
+                <li data-marpit-fragment="8">Confección y distribución pública de copias</li>
+                <li data-marpit-fragment="9">Modificación del programa y distribución libre</li>
             </ol>
         </ol>
     </ul>

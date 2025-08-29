@@ -1205,6 +1205,7 @@ img{
 </section>
 
 ---
+
 <style scoped>
 section {
   font-size: 30px;
@@ -1212,6 +1213,60 @@ section {
 }
 div{
     align-items: start; 
+    justify-self: center;
+    
+}
+img{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<section>
+<div class="slide">
+    <div class="title-slide">
+        <h1>Principios de diseño y narrativa visual para comunicar patrones, tendencias y anomalías.</h1>
+        <h3>Knaflic (2015)</h3>
+    </div>
+    <div class="slide-content">
+        <div class="fixed-column">
+            <ul>
+                <li>Comprender el contexto.</li>
+                        <li>Elegir una visualización efectiva.</li>
+                        <li>Eliminar el desorden.</li>
+                        <li><strong>Enfocar la atención de la audiencia.</strong></li>
+                        <li>Pensar como un/a Diseñador/a.</li>
+                        <li>Contar una historia.</li>
+            </ul>
+        </div>
+        <div class="variable-column">
+            <div class="variable-content">
+                <div>
+                    <div><strong>Atributos preatentivos</strong></div>
+                </div>
+                <div>
+                    <img src="./img/2.14.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+---
+<style scoped>
+section {
+  font-size: 30px;
+  padding: 20px 40px;
+}
+div{
+    align-items: start; 
+}
+img{
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 </style>
@@ -1229,8 +1284,8 @@ div{
                         <li>Comprender el contexto.</li>
                         <li>Elegir una visualización efectiva.</li>
                         <li>Eliminar el desorden.</li>
-                        <li><strong>Enfocar la atención de la audiencia.</strong></li>
-                        <li>Pensar como un/a Diseñador/a.</li>
+                        <li>Enfocar la atención de la audiencia.</li>
+                        <li><strong>Pensar como un/a Diseñador/a.</strong></li>
                         <li>Contar una historia.</li>
                     </ul>
                 </div>
@@ -1238,15 +1293,12 @@ div{
             <div class="variable-column">
                 <div class="variable-content" data-marpit-fragment="1">
                         <ul>
-                            <li>Quién (Su Audiencia)</li>
-                            <li>Qué (Acción)</li>
-                            <li>Cómo (Mecanismo y Tono)</li>
-                            <ol data-marpit-fragment="2">
-                                <li>La historia de 3 minutos</li>
-                                <li>La Gran idea</li>
-                                <li>Storyboarding</li>
-                            </ol>
+                            <li>Affordances </li>
+                            <li>Accesibilidad</li>       
                         </ul>
+                            <div>
+                    <img src="./img/2.15.png" />
+                </div>
                     </div>
                 </div>
             </div>
@@ -1255,5 +1307,55 @@ div{
 </section>
 
 ---
+<style scoped>
+section {
+  font-size: 30px;
+  padding: 20px 40px;
+}
+div{
+    align-items: start; 
+}
+img{
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
 
+</style>
 
+<section>
+    <div class="slide">
+    <div class="title-slide">
+        <h1>Principios de diseño y narrativa visual para comunicar patrones, tendencias y anomalías.</h1>
+        <h3>Knaflic (2015)</h3>
+        </div>
+        <div class="slide-content">
+            <div class="fixed-column">
+                <div>
+                    <ul>
+                        <li>Comprender el contexto.</li>
+                        <li>Elegir una visualización efectiva.</li>
+                        <li>Eliminar el desorden.</li>
+                        <li>Enfocar la atención de la audiencia.</li>
+                        <li>Pensar como un/a Diseñador/a.</li>
+                        <li><strong>Contar una historia.</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="variable-column">
+                <div class="variable-content" data-marpit-fragment="1">
+                        <ul>
+                            <li>Affordances </li>
+                            <li>Accesibilidad</li>       
+                        </ul>
+                            <div>
+                    <img src="./img/2.15.png" />
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+---
